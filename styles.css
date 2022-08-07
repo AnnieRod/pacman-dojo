@@ -1,0 +1,69 @@
+body {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+.row {
+    display: flex;
+}
+.row>div {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+
+.brick {
+    background-color: blue;
+}
+
+.coin {
+    background-image: url(images/coin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.cherry {
+    background-image: url(images/cherry.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#pacman {
+    background-image: url(images/pacman.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
+
+#score, #live {
+    border: 1px solid white;
+    width: 60px;
+    height: 30px;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-family: monospace;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+}
+
+#live {
+    position: absolute;
+    top: 60px;
+    left: 400px;
+}
+
+#ghost {
+    background-image: url(images/ghost.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
